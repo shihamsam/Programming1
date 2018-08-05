@@ -2,6 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int count1 = 10;
+        int count2 = 5;
+        int count3 = 5;
+
+
+    }
+    public static void main1(String[] args) {
+
          /*
          This is a comment
          write a program to print the following
