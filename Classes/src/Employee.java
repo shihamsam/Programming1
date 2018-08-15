@@ -1,14 +1,16 @@
 import org.omg.CORBA.PUBLIC_MEMBER;
 
-public class Employee { // start pf class
+
+
+abstract class Employee { // start pf class
 
     // instance variables
     public String name;
     private int age;
-    private float salary;
+    protected float salary;
 
     // class variables
-    private static int WORKING_HOURS = 8;
+    public static int WORKING_HOURS = 8;
 
     // constructor
     public Employee() {
@@ -46,7 +48,5 @@ public class Employee { // start pf class
         return salary;
     }
 
-    public void setSalary(float salary) {
-        this.salary = salary;
-    }
+    abstract void setSalary(float salary) ;
 } // end of class

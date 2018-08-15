@@ -3,15 +3,10 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        float salary = 60;
-        Employee emp = new Employee();
-        emp.setSalary(50);
 
-        //setSalary(salary, 10 , 8);
-        setSalary(emp,10, 8);
+        ContractEmployee emp = new ContractEmployee() ;
 
-        //System.out.println("Result after pass by value " + salary);
-        System.out.println("Result after pass by reference " + emp.getSalary());
+        emp.setSalary(20);
 
     }
 
